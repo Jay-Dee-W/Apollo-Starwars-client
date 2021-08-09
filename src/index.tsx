@@ -15,7 +15,7 @@ injectStyles();
 
 const client: ApolloClient<NormalizedCacheObject> = new ApolloClient({
   cache,
-  uri: 'http://localhost:4000/graphql',
+  uri: 'https://apollo-starwars-server.herokuapp.com/',
 });
 
 
